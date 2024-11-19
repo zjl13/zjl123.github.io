@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: url('images.avif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #007bff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004085;
+    text-decoration: underline;
+}
+
+.music-list, .singer-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.music-list h2, .music-list h3, .music-list h4, .music-list h5, .music-list h6 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.singer-list p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
